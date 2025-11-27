@@ -24,9 +24,6 @@
 
 ### Сборка и запуск
 
-Для сборки проекта требуется `cmake` и компилятор с поддержкой C++17.  В
-терминале выполните:
-
 ```bash
 rm -rf build && cmake -B build && cmake --build build && ./build/sql_query_optimizer
 ```
