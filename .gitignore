@@ -1,0 +1,19 @@
+# Игнорируем файлы сборки CMake и бинарные артефакты
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/compile_commands.json
+
+# Файлы среды IDE
+.vscode/
+.idea/
+
+# Python bytecode (если появится)
+__pycache__/
+*.pyc
+
+# Временные файлы
+*.log
+*.tmp
